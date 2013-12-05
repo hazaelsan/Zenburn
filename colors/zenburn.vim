@@ -385,6 +385,11 @@ if exists("g:zenburn_force_dark_Background") && g:zenburn_force_dark_Background
     set background=dark
 endif
 
+if exists("g:zenburn_force_no_Background") && g:zenburn_force_no_Background
+    " Use terminal default background
+    hi Normal ctermbg=none
+endif
+
 if exists("g:zenburn_high_Contrast") && g:zenburn_high_Contrast
     " use new darker background
     hi Normal          guifg=#dcdccc guibg=#1f1f1f
