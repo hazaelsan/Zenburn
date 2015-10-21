@@ -527,8 +527,8 @@ else
     endif
 endif
 
-" Set CursorColumn to something less terrible
-hi! link CursorColumn TablineFill
+" Set ColorColumn to something less terrible
+hi! link ColorColumn TablineFill
 
 " EXPERIMENTAL ctags_highlighting support
 " link/set sensible defaults here;
