@@ -528,7 +528,7 @@ else
 endif
 
 " Set ColorColumn to something less terrible
-hi! link ColorColumn TablineFill
+hi! link ColorColumn TabLine
 
 " EXPERIMENTAL ctags_highlighting support
 " link/set sensible defaults here;
